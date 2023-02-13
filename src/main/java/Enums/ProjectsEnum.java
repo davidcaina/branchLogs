@@ -16,10 +16,10 @@ public enum ProjectsEnum {
     LGPD("LGPD1", "18926726"),
     RENNER("RENNER", "12696766");
 
-    private String projectId;
-    private String projectName;
+    private final String projectId;
+    private final String projectName;
 
-    ProjectsEnum(String projectId, String projectName) {
+    ProjectsEnum(String projectName, String projectId) {
         this.projectId = projectId;
         this.projectName = projectName;
     }

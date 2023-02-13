@@ -76,18 +76,18 @@ public class BranchLogs {
     public HashMap<String, String> initProjectList() {
         HashMap<String, String> branchs = new HashMap<>();
         branchs.put(ProjectsEnum.BRADESCO.getProjectName(), ProjectsEnum.BRADESCO.getProjectId());
-        branchs.put(ProjectsEnum.DPP_MAIN.getProjectName(),ProjectsEnum.DPP_MAIN.getProjectId());
-        branchs.put(ProjectsEnum.DPP_RENNER.getProjectName(),ProjectsEnum.DPP_RENNER.getProjectId());
-        branchs.put(ProjectsEnum.ARCA.getProjectName(),ProjectsEnum.ARCA.getProjectId());
-        branchs.put(ProjectsEnum.ZURICH.getProjectName(),ProjectsEnum.ZURICH.getProjectId());
-        branchs.put(ProjectsEnum.ZURICH_2.getProjectName(),ProjectsEnum.ZURICH_2.getProjectId());
-        branchs.put(ProjectsEnum.API_PROVIDERS.getProjectName(),ProjectsEnum.API_PROVIDERS.getProjectId());
-        branchs.put(ProjectsEnum.CONSENT_API.getProjectName(),ProjectsEnum.CONSENT_API.getProjectId());
-        branchs.put(ProjectsEnum.EBX_TRAINING.getProjectName(),ProjectsEnum.EBX_TRAINING.getProjectId());
-        branchs.put(ProjectsEnum.HDI.getProjectName(),ProjectsEnum.HDI.getProjectId());
-        branchs.put(ProjectsEnum.ORIZON.getProjectName(),ProjectsEnum.ORIZON.getProjectId());
-        branchs.put(ProjectsEnum.LGPD.getProjectName(),ProjectsEnum.LGPD.getProjectId());
-        branchs.put(ProjectsEnum.RENNER.getProjectName(),ProjectsEnum.RENNER.getProjectId());
+        branchs.put(ProjectsEnum.DPP_MAIN.getProjectName(), ProjectsEnum.DPP_MAIN.getProjectId());
+        branchs.put(ProjectsEnum.DPP_RENNER.getProjectName(), ProjectsEnum.DPP_RENNER.getProjectId());
+        branchs.put(ProjectsEnum.ARCA.getProjectName(), ProjectsEnum.ARCA.getProjectId());
+        branchs.put(ProjectsEnum.ZURICH.getProjectName(), ProjectsEnum.ZURICH.getProjectId());
+        branchs.put(ProjectsEnum.ZURICH_2.getProjectName(), ProjectsEnum.ZURICH_2.getProjectId());
+        branchs.put(ProjectsEnum.API_PROVIDERS.getProjectName(), ProjectsEnum.API_PROVIDERS.getProjectId());
+        branchs.put(ProjectsEnum.CONSENT_API.getProjectName(), ProjectsEnum.CONSENT_API.getProjectId());
+        branchs.put(ProjectsEnum.EBX_TRAINING.getProjectName(), ProjectsEnum.EBX_TRAINING.getProjectId());
+        branchs.put(ProjectsEnum.HDI.getProjectName(), ProjectsEnum.HDI.getProjectId());
+        branchs.put(ProjectsEnum.ORIZON.getProjectName(), ProjectsEnum.ORIZON.getProjectId());
+        branchs.put(ProjectsEnum.LGPD.getProjectName(), ProjectsEnum.LGPD.getProjectId());
+        branchs.put(ProjectsEnum.RENNER.getProjectName(), ProjectsEnum.RENNER.getProjectId());
         return branchs;
     }
 }
